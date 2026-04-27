@@ -2,6 +2,8 @@
 
 A simple Docker container that forwards incoming TCP or UDP traffic to a specific IP.
 
+> **Note:** This is a fork of [henkelmax/docker-proxy](https://github.com/henkelmax/docker-proxy) updated to build successfully against modern Boost/glibc and to publish multi-arch images (`linux/amd64` and `linux/arm64`).
+
 > This container uses [MengRao/TCP-UDP-Proxy](https://github.com/MengRao/TCP-UDP-Proxy).
 
 ## Useful Links
